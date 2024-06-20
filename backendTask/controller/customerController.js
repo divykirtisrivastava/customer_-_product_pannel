@@ -1,5 +1,6 @@
 const db  = require('../dataBaseConfig.js')
 
+//this is customer controller
 exports.saveCustomer = (req, res)=>{
     let full_name = req.body.full_name
     let email = req.body.email
